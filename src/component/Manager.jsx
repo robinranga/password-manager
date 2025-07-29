@@ -16,12 +16,10 @@ const Manager = () => {
     dispatch(setform({ ...form, [e.target.name]: e.target.value }));
   };
   useEffect(() => {
-    console.log("Updated pswdArray:", pswdArray);
   }, [pswdArray]);
 
   const handlebutton = () => {
     if (form.username.length > 3 && form.password.length > 3 && form.site.length > 3) {
-      console.log(form);
       dispatch(setpswd([...pswdArray, form]));
       localStorage.setItem("data", JSON.stringify([...pswdArray, form]));
       dispatch(setform({ site: "", username: "", password: "" }));
