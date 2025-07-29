@@ -1,12 +1,39 @@
-# React + Vite
+# 🔐 React Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet functional Password Manager built with **React**, **Redux Toolkit**, **Vite**, and **React Router**. This app allows you to securely manage your credentials — store, view, edit, delete, and copy them with ease — and everything is stored locally in your browser using `localStorage`.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [View on GitHub Pages](https://robinranga.github.io/password-manager/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add passwords with fields: **URL**, **Username**, and **Password**
+- 🧠 State management powered by **Redux Toolkit**
+- 💾 All data is saved to and loaded from **localStorage**
+- 🔄 Seamless routing between **Add Passwords** and **Display Passwords** pages using React Router
+- 🧹 Edit or delete any saved credential
+- 📋 One-click **Copy to Clipboard** for usernames and passwords
+- 👁️ Toggle **Show/Hide Passwords**
+- 🔔 Feedback notifications using **React Toastify**
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router](https://reactrouter.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Vite](https://vitejs.dev/)
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 🧪 Screenshots
+
+*(You can add screenshots here later using Markdown)*
+
+```md
+![Add Password Page](./public/Screenshot1.png)
+![Display Passwords Page](./public/Screenshot2.png)
