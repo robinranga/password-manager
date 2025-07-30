@@ -32,8 +32,16 @@ A simple yet functional Password Manager built with **React**, **Redux Toolkit**
 
 ## 🧪 Screenshots
 
-*(You can add screenshots here later using Markdown)*
+<p align="center">
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <div><strong>Add Password</strong></div>
+    <img src="https://github.com/user-attachments/assets/ecd08723-cdc8-4615-829a-0f69b3148d85" alt="Add Password" width="700"/>
+  </div>
+  
+  <div style="display: inline-block; text-align: center;">
+    <div><strong>Display Password</strong></div>
+    <img src="https://github.com/user-attachments/assets/22f891a3-64b3-4ea1-9aa7-0bdad65fad39" alt="Display Password" width="700"/>
+  </div>
+</p>
 
-```md
-![Add Password Page](https://github.com/robinranga/password-manager/issues/1#issue-3274398545)
-![Display Passwords Page](https://github.com/robinranga/password-manager/issues/2#issue-3274400667)
+
